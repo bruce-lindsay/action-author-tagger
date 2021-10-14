@@ -1,8 +1,9 @@
 on:
   pull_request:
     types: [opened, reopened]
-  jobs:
-    check-bats-version:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: ./
+
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./
