@@ -1,6 +1,6 @@
 {
   "name": "@bruce-lindsay/action-author-tagger",
-  "version": "0.0.0-wip",
+  "version": "0.0.1",
   "description": "add a label based on the author of a pull",
   "main": "dist/index.js",
   "scripts": {

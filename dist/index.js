@@ -14926,7 +14926,6 @@ class Labeler {
             repo: this.opts.repository,
             path: path
         });
-        console.log(result.data);
         const b64 = result.data.content;
         if (b64) {
             return base64ToString(b64);
