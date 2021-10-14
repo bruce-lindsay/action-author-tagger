@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: bruce-lindsay/action-author-tagger@v0.0.0-wip0
