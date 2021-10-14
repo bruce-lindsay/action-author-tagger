@@ -1,0 +1,21 @@
+{
+  "name": "@bruce-lindsay/action-author-tagger",
+  "version": "0.0.0-wip",
+  "description": "add a label based on the author of a pull",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.ts --license licenses.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@octokit/plugin-rest-endpoint-methods": "^5.13.0",
+    "@tsconfig/node12": "^1.0.9",
+    "@types/node": "^16.10.9",
+    "typescript": "^4.4.3",
+    "yaml": "^1.10.2"
+  }
+}
